@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-25322892 -->
+<html lang="en" class="webp js"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<link rel="preconnect" href="https://cdn.vectorstock.com/">
+	<link rel="dns-prefetch" href="https://cdn.vectorstock.com/">
+	<meta name="theme-color" content="#101122">
+	<script type="text/javascript" src="./view_files/02e09611df"></script><script src="./view_files/nr-1212.min.js.다운로드"></script><script type="text/javascript" async="" src="./view_files/f.txt" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU="></script><script type="text/javascript" async="" src="./view_files/analytics.js.다운로드" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU="></script><script type="text/javascript" async="" src="./view_files/analytics.js.다운로드" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU="></script><script type="text/javascript" async="" src="./view_files/js" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU="></script><script type="text/javascript" async="" src="./view_files/js(1)" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU="></script><script type="text/javascript" async="" src="./view_files/js(2)" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU="></script><script type="text/javascript" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU=">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"02e09611df",applicationID:"156179534"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;p("lcp",[r])}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){if(t instanceof g&&!y){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),y=!0,p("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=l.now(),p("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d,p=t("handle"),l=t("loader"),v=t(9),m=t(3),g=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(h){}s=new PerformanceObserver(i);try{s.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}d=new PerformanceObserver(o);try{d.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var y=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(t){document.addEventListener(t,a,m(!1))})}v(c)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){y[t]=m(t).concat(e)}function v(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:h,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!T++){var t=P.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+P.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+P.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,h="addEventListener",y="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1212.min.js"},M=w&&b&&b[h]&&!/CriOS/.test(navigator.userAgent),P=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:M,userAgent:s,disabled:E};if(!E){t(1),t(7),g[h]?(g[h]("DOMContentLoaded",o,l(!1)),m[h]("load",r,l(!1))):(g[y]("onreadystatechange",i),m[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var T=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="csrf-name" content="csrf61af1e83edac8">
+	<meta name="csrf-value" content="7d85a65b6b7346b5694d131cd58b7de2">
+	
+	<meta name="cart-hash" content="d751713988987e9331980363e24189ce">
+	<meta name="live-settings" content="[]">
+	<meta name="twitter:site" content="@VectorStock">
+	<meta property="og:site_name" content="VectorStock">
+	<meta property="fb:app_id" content="241100862642313">
+
+	<link rel="shortcut icon" href="https://cdn.vectorstock.com/img/icons/favicon.ico" type="image/x-icon">
+	<link rel="search" type="application/opensearchdescription+xml" title="VectorStock Search" href="https://www.vectorstock.com/xml/searchbox.xml">
+
+	<title>Zoom in icon Royalty Free Vector Image - VectorStock</title>
+	<meta name="description" content="Zoom in vector icon. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions..">
+	
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-25322892">
+	<meta property="og:title" content="Zoom in icon vector image on VectorStock">
+	<meta property="og:description" content="Zoom in vector icon. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+	<meta property="og:image" content="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+	<meta property="og:image:url" content="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+	<meta property="og:image:secure_url" content="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1000">
+	<meta property="og:image:height" content="1000">
+	
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:url" content="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-25322892">
+	<meta name="twitter:title" content="Zoom in icon vector image">
+	<meta name="twitter:description" content="Zoom in vector icon">
+	<meta name="twitter:image" content="https://cdn3.vectorstock.com/i/thumb-large/28/92/zoom-in-icon-vector-25322892.jpg">
+	<meta name="twitter:image:width" content="238">
+	<meta name="twitter:image:height" content="250">
+
+	<link rel="canonical" href="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-25322892">
+
+	<link rel="stylesheet" type="text/css" href="./view_files/common1638242756.min.css">
+	<link rel="stylesheet" type="text/css" href="./view_files/common-payment-paddle1638242756.min.css">
+	<link rel="stylesheet" type="text/css" href="./view_files/vector1638242756.min.css">
+	<script async="" src="./view_files/js(3)"></script>
+	<script src="./view_files/paddle.js.다운로드"></script>
+	<script src="./view_files/common1638843791.min.js.다운로드"></script>
+	<script src="./view_files/common-payment-paddle1638843791.min.js.다운로드"></script>
+	<script src="./view_files/vector1638843791.min.js.다운로드"></script>
+	<link rel="preload" href="https://cdn.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.webp" as="image">
+<style type="text/css" id="insta-publisher-styles">@font-face {font-family: 'Material Icons';font-style: normal;font-weight: 400;src: url('chrome-extension://olmfgbcgfadifpdcompkdbgdifojjdlg/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2') format('woff');}.insta-publisher-material-icons {display: inline-block !important;font-family: 'Material Icons' !important;font-size: 24px !important;font-style: normal !important;font-weight: normal !important;line-height: 1 !important;letter-spacing: normal !important;text-transform: none !important;white-space: nowrap !important;word-wrap: normal !important;direction: ltr !important;-webkit-font-feature-settings: 'liga' !important;-webkit-font-smoothing: antialiased !important;}#insta-publisher-uploader-box {display: block;position: absolute !important;}#insta-publisher-uploader-box.loading .insta-publisher-btns-holder,#insta-publisher-uploader-box.error .insta-publisher-btns-holder {display: none !important;}#insta-publisher-uploader-box.loading .insta-publisher-spinner {display: block !important;}#insta-publisher-uploader-box.error .insta-publisher-error-msg {display: block !important;}#insta-publisher-uploader-box span {display: flex !important;width: 28px !important;height: 28px !important;justify-content: center !important;align-items: center !important;margin: 5px !important;text-align: center !important;font-size: 20px !important;color: #fff !important;border-radius: 4px;opacity: 0.8 !important;background: #7441A3 !important;cursor: pointer !important;}#insta-publisher-uploader-box span:hover {cursor: pointer !important;}#insta-publisher-uploader-box span:first-child {margin-bottom: 0 !important;}#insta-publisher-uploader-box span:hover {opacity: 1 !important;}#insta-publisher-uploader-box a:first-child {margin-bottom: 0 !important;}.insta-publisher-spinner {display: none !important;margin: 15px 5px !important;}.insta-publisher-error-msg {display: none !important;margin: 15px 5px !important;}#insta-publisher-uploader-box .insta-publisher-error-msg span {width: max-content !important;padding: 0 5px !important;line-height: 28px !important;}.insta-publisher-spinner > div {display: inline-block !important;width: 14px !important;height: 14px !important;background-color: #fff !important;border-radius: 100% !important;display: inline-block !important;-webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;animation: sk-bouncedelay 1.4s infinFite ease-in-out both;}.insta-publisher-spinner .bounce1 {-webkit-animation-delay: -0.32s;animation-delay: -0.32s;}.insta-publisher-spinner .bounce2 {-webkit-animation-delay: -0.16s;animation-delay: -0.16s;}@-webkit-keyframes sk-bouncedelay {0%, 80%, 100% {-webkit-transform: scale(0)}40% {-webkit-transform: scale(1.0)}}@keyframes sk-bouncedelay {0%, 80%, 100% {-webkit-transform: scale(0);transform: scale(0);}40% {-webkit-transform: scale(1.0);transform: scale(1.0);}}</style><script src="./view_files/f(1).txt" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU="></script><link rel="stylesheet" type="text/css" href="./view_files/animate.css" media="all"><link rel="stylesheet" type="text/css" href="./view_files/paddle.css" media="all"></head>
+<body class="vsc-initialized">
+
+<!-- Top header -->
+<header>
+	<nav class="top">
+		<figure>
+			<a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a>
+		</figure>
+
+		<div class="grid">
+			<form id="searchbox" class="empty">
+				<div class="wrap">
+					<fieldset>
+						<div class="contents">
+							<div class="tags">
+								<ul></ul>
+							</div>
+							<div class="input">
+								<input type="text" name="input" autocomplete="off" autocapitalize="none" spellcheck="true" value="" placeholder="Search…" maxlength="50" autofocus="">
+								<button type="button" data-action="clear">×</button>
+							</div>
+
+							<input type="hidden" name="category" value="">
+							<input type="hidden" name="custom_srp" value="">
+							<input type="hidden" name="artist" value="">
+							<input type="hidden" name="similar" value="">
+						</div>
+					<div class="suggestions"><div></div></div></fieldset>
+
+					<button type="submit">
+						<span class="icon">Search</span>
+					</button>
+				</div>
+			</form>
+			<ul>
+				<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+				<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+			</ul>
+		</div>
+
+		<div class="aside">
+			<ul>
+				<li><a href="https://www.vectorstock.com/popular-categories" title="Popular Categories">Categories</a></li>
+				<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+				<li class="account">
+					<button type="button" data-action="signup">Sign Up</button>
+					<button type="button" data-action="login">Login</button>
+				</li>
+			</ul>
+		</div>
+
+		<div id="mobilenav-icon">
+			<span></span><span></span><span></span><span></span>
+		</div>
+	</nav>
+
+	<!-- Submenu -->
+		<nav id="searchrelated"></nav>	
+	<!-- Mobile menu -->
+	<div id="mobilenav-menu">
+		<div>
+			<div class="group">
+				<h4>Browse</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors">All Vectors</a></li>
+					<li><a href="https://www.vectorstock.com/free-vectors">Free Vectors</a></li>
+				</ul>
+			</div>
+			<div class="group">
+				<h4>Account</h4>
+				<ul>
+					<li class="account">
+						<ul>
+							<li><a href="https://www.vectorstock.com/signup">Sign Up</a></li>
+							<li data-action="login"><a href="https://www.vectorstock.com/?login=1">Login…</a></li>
+							<li><a href="https://www.vectorstock.com/pricing">Pricing</a></li>
+						</ul>
+					</li>
+				</ul>
+				<form method="get" action="https://www.vectorstock.com/auth/logout" class="logout">
+					<input type="hidden" name="logout" value="1">
+				</form>
+			</div>
+			<div class="group">
+				<h4>Help</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/faq"><abbr title="Frequently Asked Questions">FAQs</abbr></a></li>
+					<li><a href="https://www.vectorstock.com/contact">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</header>
+
+		<!-- Account Menu Tabs -->
+		<aside id="nav_sidebar" class="tabs tabsDark">
+
+			<nav>
+				<ul role="tablist">
+					<li data-tab-id="signup" class=""><span role="tab"><span>Sign Up</span></span></li>
+					<li data-tab-id="login" class="selected"><span role="tab"><span>Log In</span></span></li>
+				</ul>
+			</nav>
+
+			<section id="sb_signup" data-tab-id="signup" class="">
+				<div class="primary">
+					<p>New to VectorStock?</p>
+					<p><em>We're the largest royalty-free, vector-only stock agency in the world.</em></p>
+					<p>Every week we add new premium graphics by the thousands.</p>
+				</div>
+				<div class="secondary">
+					<p>Whether you're a global ad&nbsp;agency or a freelance graphic designer, we have the vector graphics to make your project come to life.</p>
+					<p>Buy Vectors, sell Vectors or both. <a href="https://www.vectorstock.com/signup">Sign up now, it’s free.</a></p>
+				</div>
+				<div class="footer">
+					<button class="master">
+						<span class="title">Sign Up...</span>
+						<span class="value">
+							<span class="symbol signup"></span>
+						</span>
+					</button>
+				</div>
+			</section>
+
+			<section id="sb_login" data-tab-id="login" class="selected">
+				<form action="https://www.vectorstock.com/auth/login" method="post">
+					<fieldset class="">
+						<label for="vs_username">Email / Username</label>
+						<div class="textfield">
+							<input type="text" id="vs_username" name="vs_username" value="" autocomplete="on" tabindex="1">
+						</div>
+					</fieldset>
+					<fieldset class="">
+						<label for="vs_password">Password</label>
+						<button type="button" class="forgot">Forgot Password</button>
+						<div class="textfield">
+							<input type="password" id="vs_password" name="vs_password" value="" autocomplete="on" tabindex="2" maxlength="72">
+						</div>
+					</fieldset>
+
+
+					<button type="submit" tabindex="4">Log In</button>
+				</form>
+				<div class="alternatives">
+					<h6>Or Login With</h6>
+					<ul>
+						<li class="gp"><a href="https://www.vectorstock.com/">
+							<span class="title">Google</span>
+							<span class="icon"></span>
+						</a></li>
+						<li class="fb"><a href="https://www.vectorstock.com/">
+							<span class="title">Facebook</span>
+							<span class="icon"></span>
+						</a></li>
+					</ul>
+				</div>
+
+				
+			</section>
+		</aside>
+
+	<!-- Page -->
+	<article>
+		<section id="vs-asset" style="min-height: 678px; max-width: 792px;">
+
+			<!-- Aside -->
+			<div class="aside">
+				<ol itemscope="" itemtype="http://schema.org/BreadcrumbList">
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors">
+							<span itemprop="name">Royalty Free Vectors</span>
+						</a>
+						<meta itemprop="position" content="1">
+					</li>
+					<li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+						<a itemtype="http://schema.org/Thing" itemprop="item" href="https://www.vectorstock.com/royalty-free-vectors/zoom-vectors">
+							<span itemprop="name">Zoom Vectors</span>
+						</a>
+						<meta itemprop="position" content="2">
+					</li>
+				</ol>
+
+				<h1>Zoom in icon vector&nbsp;image</h1>
+
+				<figure style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.webp">
+							<source type="image/jpeg" srcset="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+							<img src="./view_files/zoom-in-icon-vector-25322892.jpg" importance="high" title="Zoom in icon vector image" alt="Zoom in icon">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+				</figure>
+
+				<form data-loggedin="0" data-licenses="2" data-license="standard" data-status="" data-payment="single-image">
+					<input type="hidden" id="vector_id" value="25322892">
+					<input type="hidden" id="vector_title" value="Zoom in icon">
+					<input type="hidden" id="vector_description" value="Zoom in vector icon. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions.">
+					<input type="hidden" id="vector_url" value="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-25322892">
+					<input type="hidden" id="vector_media" value="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+					<input type="hidden" id="vector_ratio" value="1">
+					<input type="hidden" id="vector_license_status" value="">
+					<input type="hidden" id="artist_name" value="iconStocker">
+					<input type="hidden" id="account_user" value="0">
+
+					<input type="hidden" id="vector_download_urls" value="[]">
+					<input type="hidden" id="vector_license_options" value="[{&quot;type&quot;:&quot;standard&quot;,&quot;cost&quot;:{&quot;single-image&quot;:14.99,&quot;credits&quot;:1,&quot;subscription&quot;:1}},{&quot;type&quot;:&quot;expanded&quot;,&quot;cost&quot;:{&quot;single-image&quot;:39.99,&quot;credits&quot;:30}}]">
+					<input type="hidden" id="account_filetype" value="zip">
+					<input type="hidden" id="account_customizations" value="[]">
+					<input type="hidden" id="account_cloud" value="[{&quot;type&quot;:&quot;googledrive&quot;,&quot;status&quot;:&quot;connect&quot;},{&quot;type&quot;:&quot;dropbox&quot;,&quot;status&quot;:&quot;connect&quot;}]">
+					
+					<div class="options">
+						<!--
+						-- OPTION: License type
+						-->
+						<div class="option" data-type="license" data-license="standard" data-licenses="2">
+							<h6><span class="type">License</span><a href="https://www.vectorstock.com/faq/members/standard-license">Learn More</a></h6>
+							<div class="optgroup radgroup">
+								<fieldset class="checked">
+									<label for="f_license_standard">
+										<input type="radio" id="f_license_standard" name="license" value="standard" checked="checked" tabindex="2">
+										<span class="label">Standard</span>
+										<span class="descr">For Print, Advertising, Design</span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_license_expanded">
+										<input type="radio" id="f_license_expanded" name="license" value="expanded" tabindex="4">
+										<span class="label">Expanded</span>
+										<span class="descr">For Print on Demand &amp; Resale</span>
+									</label>
+								</fieldset>
+							</div>
+
+							<div class="help">
+								<p>The license type determines how you can use this image.</p>
+								<table>
+									<thead>
+										<tr>
+											<th></th>
+																						<th data-license="standard">Std.</th>																						<th data-license="expanded">Exp.</th>										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td>Print / Editorial</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Graphic Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Web Design</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Social Media</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Edit &amp; Modify</td>
+											<td data-license="standard"><span class="yes"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Multi-user</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Resale Items</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+										<tr>
+											<td>Print on Demand</td>
+											<td data-license="standard"><span class="no"></span></td><td data-license="expanded"><span class="yes"></span></td> 											
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						
+						<!--
+						-- OPTION: Payment options (Standard)
+						-->
+						<div class="option" data-type="payment" data-license="standard">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/pricing">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="standard">
+								<fieldset class="checked">
+									<label for="f_payment_standard_single-image">
+										<input type="radio" id="f_payment_standard_single-image" name="payment_standard" data-cost="14.99" value="single-image" checked="checked" tabindex="5">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>14.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_credits">
+										<input type="radio" id="f_payment_standard_credits" name="payment_standard" data-cost="1" value="credits" tabindex="6">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>1.00</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_standard_subscription">
+										<input type="radio" id="f_payment_standard_subscription" name="payment_standard" data-cost="1" value="subscription" tabindex="7">
+										<span class="label">Subscription</span>
+										<span class="value"><small>$</small><var>0.69</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help reveal" style="display: none;">
+								<p>There are three ways to pay for Standard licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Image Price</th>
+										</tr>
+									</thead>
+									<tbody>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>14.99</span>
+												</span>
+												<span class="byline">One-time payment</span>
+											</td>
+										</tr>
+																				<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>1</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1). Minimum purchase of 30.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Subscription Plan</span>
+													<span class="dm"></span>
+													<span class="dd"><em>From</em> 69¢</span>
+												</span>
+												<span class="byline">Choose a monthly plan. Unused downloads automatically roll into following month.</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<!--
+						-- OPTION: Payment options (Expanded)
+						-->
+						<div class="option" data-type="payment" data-license="expanded">
+							<h6><span class="type">Ways to Buy</span><a href="https://www.vectorstock.com/faq/members/ways-to-buy">Compare</a></h6>
+							<div class="optgroup radgroup" data-license="expanded">
+								<fieldset class="checked">
+									<label for="f_payment_expanded_single-image">
+										<input type="radio" id="f_payment_expanded_single-image" name="payment_expanded" data-cost="39.99" value="single-image" checked="checked" tabindex="8">
+										<span class="label">Pay-per-Image</span>
+										<span class="value"><small>$</small><var>39.99</var></span>
+									</label>
+								</fieldset>
+								<fieldset>
+									<label for="f_payment_expanded_credits">
+										<input type="radio" id="f_payment_expanded_credits" name="payment_expanded" data-cost="30" value="credits" tabindex="9">
+										<span class="label">Credits</span>
+										<span class="value"><small>$</small><var>30.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+														<div class="help">
+								<p>There are two ways to pay for Expanded licenses. Prices are $<abbr title="United States Dollar">USD</abbr>.</p>
+
+								<table>
+									<thead>
+										<tr>
+											<th>Pay with</th>
+											<th>Cost per Image</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pay-per-Image</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>39.99</span>
+												</span>
+												<span class="byline">One-off payment, no signup needed.</span>
+											</td>
+										</tr>
+										<tr>
+											<td colspan="2">
+												<span class="title">
+													<span class="dt">Pre-paid Credits</span>
+													<span class="dm"></span>
+													<span class="dd"><small>$</small>30</span>
+												</span>
+												<span class="byline">Download images on-demand (1 credit = $1).</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+													</div>
+						<!--
+						-- OPTION: Customization
+						-->
+						<div class="option" data-type="customization">
+							<h6><span class="type">New Option!</span><a href="https://www.vectorstock.com/faq/members/what-is-hire-a-designer">What is this?</a></h6>
+							<div class="optgroup chkgroup">
+								<fieldset>
+									<label for="f_payment_customization">
+										<input type="checkbox" id="f_payment_customization" name="payment_customization" data-cost="85" value="customization" tabindex="12">
+										<span class="label">Customize image</span>
+										<span class="descr">Only available with Pay-per-Image</span>
+										<span class="value"><small>$</small><var>85.00</var></span>
+									</label>
+								</fieldset>
+							</div>
+							<div class="help reveal" style="display: none;">
+								<p>Love the image but just need a few modifications? Let our talented artists do the work for you!</p>
+								<p>We’ll connect you with a designer who can make updates and send you the artwork in a format of your choice.</p>
+								<h4>Examples</h4>
+								<ul>
+									<li>Change the text</li>
+									<li>Modify colors</li>
+									<li>Resize to new dimensions</li>
+									<li>Include logo or symbol</li>
+									<li>Add your company or business name</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="download">
+						<button type="button" data-action="download">
+							<span class="label">Download Image</span>
+							<span class="icon"></span>
+						</button>
+						<h6><span class="label">Files Included</span></h6>
+						<div class="help">
+							<span class="loading"><span class="label">Loading Details...</span></span>
+						</div>
+					</div>
+				</form>
+			</div>
+
+			<!-- Image -->
+			<div class="image">
+				<figure data-orientation="square" style="padding-top: 99%;" class="target reveal">
+					<div class="highres" data-src="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+						<picture>
+							<source type="image/webp" srcset="https://cdn.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.webp">
+							<source type="image/jpeg" srcset="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+							<img src="./view_files/zoom-in-icon-vector-25322892.jpg" importance="high" title="Zoom in icon vector image" alt="Zoom in icon">
+						</picture>
+					</div>
+					<div class="overlay"></div>
+					<div class="panels">
+						<div class="share">
+							<h4>Share with others</h4>
+							<ul>
+								<li class="pinterest"><button type="button" data-action="pinterest"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M12.5,0C5.6,0,0,5.6,0,12.5c0,5.12,3.08,9.52,7.48,11.45c-0.03-0.87-0.01-1.92,0.22-2.87c0.24-1.01,1.61-6.81,1.61-6.81s-0.4-0.8-0.4-1.98c0-1.85,1.07-3.24,2.41-3.24c1.14,0,1.69,0.85,1.69,1.88c0,1.14-0.73,2.85-1.1,4.44c-0.31,1.33,0.67,2.41,1.97,2.41c2.37,0,3.96-3.04,3.96-6.65c0-2.74-1.85-4.79-5.2-4.79c-3.79,0-6.15,2.83-6.15,5.99c0,1.09,0.32,1.86,0.82,2.45c0.23,0.27,0.26,0.38,0.18,0.7c-0.06,0.23-0.2,0.78-0.25,1c-0.08,0.32-0.34,0.43-0.63,0.31c-1.75-0.71-2.56-2.62-2.56-4.77c0-3.55,3-7.81,8.93-7.81c4.77,0,7.91,3.45,7.91,7.16c0,4.9-2.73,8.57-6.75,8.57c-1.35,0-2.62-0.73-3.05-1.56c0,0-0.73,2.88-0.88,3.44c-0.27,0.96-0.78,1.93-1.26,2.68C10.08,24.82,11.27,25,12.5,25C19.4,25,25,19.4,25,12.5S19.4,0,12.5,0L12.5,0z"></path></svg></span><span class="label">Pinterest</span></span></button></li>
+								<li class="facebook"><button type="button" data-action="facebook"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.44,1H2.56C1.7,1,1,1.7,1,2.56v19.88C1,23.3,1.7,24,2.56,24h10.41v-8.89H9.98v-3.46h2.99V9.1c0-2.96,1.81-4.58,4.45-4.58c1.27,0,2.35,0.09,2.67,0.14v3.1l-1.83,0c-1.44,0-1.72,0.68-1.72,1.69v2.21h3.43l-0.45,3.46h-2.98V24h5.89C23.3,24,24,23.3,24,22.44V2.56C24,1.7,23.3,1,22.44,1z"></path></svg></span><span class="label">Facebook</span></span></button></li>
+								<li class="twitter"><button type="button" data-action="twitter"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M7.86,22.5c9.43,0,14.59-7.69,14.59-14.37c0-0.22,0-0.44-0.01-0.65c1-0.71,1.87-1.6,2.56-2.61c-0.92,0.4-1.91,0.67-2.95,0.79c1.06-0.62,1.87-1.61,2.26-2.79c-0.99,0.58-2.09,1-3.26,1.23c-0.94-0.98-2.27-1.6-3.74-1.6c-2.83,0-5.13,2.26-5.13,5.05c0,0.4,0.05,0.78,0.13,1.15C8.05,8.49,4.27,6.48,1.74,3.42C1.3,4.17,1.05,5.04,1.05,5.96c0,1.75,0.91,3.3,2.28,4.2C2.49,10.14,1.7,9.91,1,9.53C1,9.55,1,9.58,1,9.6c0,2.45,1.77,4.49,4.11,4.95c-0.43,0.12-0.88,0.18-1.35,0.18c-0.33,0-0.65-0.03-0.96-0.09c0.65,2.01,2.55,3.47,4.79,3.51C5.84,19.5,3.63,20.3,1.22,20.3c-0.41,0-0.82-0.02-1.22-0.07C2.27,21.66,4.97,22.5,7.86,22.5"></path></svg></span><span class="label">Twitter</span></span></button></li>
+								<li class="email"><button type="button" data-action="email"><span><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25" focusable="false" role="img"><path d="M22.48,4.17H2.52C1.13,4.17,0,5.3,0,6.69v11.62c0,1.39,1.13,2.52,2.52,2.52h19.96c1.39,0,2.52-1.13,2.52-2.52V6.69C25,5.3,23.87,4.17,22.48,4.17z M23.49,18.31c0,0.56-0.45,1.01-1.01,1.01H2.52c-0.55,0-1.01-0.45-1.01-1.01V6.69c0-0.56,0.45-1.01,1.01-1.01h19.96c0.56,0,1.01,0.45,1.01,1.01V18.31z"></path><path d="M19.95,7.95l-7.45,4.83L5.05,7.95C4.7,7.72,4.24,7.82,4.01,8.17C3.78,8.52,3.88,8.99,4.23,9.22l7.86,5.1c0.13,0.08,0.27,0.12,0.41,0.12s0.29-0.04,0.41-0.12l7.86-5.1c0.35-0.23,0.45-0.7,0.22-1.05C20.77,7.82,20.3,7.72,19.95,7.95z"></path></svg></span><span class="label">Email</span></span></button></li>
+							</ul>
+						</div>
+						<div class="composite">
+							<button type="button" data-action="download"><span><span class="label">Download JPG Preview Image</span></span></button>
+						</div>
+					</div>
+				</figure>
+				<div class="details">
+					<div class="meta">
+						<ul>
+							<li class="meta-id">
+								<dl><dt>Image ID</dt><dd>25322892</dd></dl>
+							</li>
+							<li class="meta-color-mode">
+								<dl><dt>Color Mode</dt><dd>RGB</dd></dl>
+							</li>
+							<li class="meta-artist">
+								<dl>
+									<dt>Artist</dt>
+									<dd>
+										<a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_iconStocker" rel="nofollow">iconStocker</a>
+										<button type="button" data-action="follow" title="Follow Artists that you like to create a newsfeed of their recent images."><span class="label">Follow</span></button>
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+					<div class="options" data-total="2">
+						<ul>
+							<li class="opt-like">
+								<button type="button" data-action="like" data-count="0"><span class="icon">♥</span><span class="label">Like</span><span class="tally"></span></button>
+							</li>
+							<li class="opt-cart">
+								<button type="button" data-action="cart"><span class="icon">+</span><span class="label">Cart</span></button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<!-- Metadata -->
+			<div class="metadata">
+				<div itemtype="http://schema.org/ImageObject" itemscope="">
+					<meta itemprop="contentUrl" content="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+					<meta itemprop="thumbnailUrl" content="https://cdn3.vectorstock.com/i/thumb-large/28/92/zoom-in-icon-vector-25322892.jpg">
+					<meta itemprop="name" content="Zoom in icon">
+					<meta itemprop="description" content="Zoom in vector icon. Download a Free Preview or High Quality Adobe Illustrator Ai, EPS, PDF and High Resolution JPEG versions. vector image">
+					<meta itemprop="author" content="iconStocker">
+					<meta itemprop="datePublished" content="2019-05-10">
+					<meta itemprop="license" content="https://www.vectorstock.com/faq/members/standard-license">
+					<meta itemprop="acquireLicensePage" content="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-25322892">
+					<meta itemprop="sourceOrganization" content="VectorStock.com">
+				</div>
+			</div>
+			
+		</section>
+
+
+		<section id="vs-related">
+						<div id="group-similar" class="group">
+				<h6><span class="icon"></span><strong>Similar Images</strong></h6>
+
+				<div class="gallery large">
+					<ul>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/78/47/zoom-icons-set-on-white-background-line-style-vector-29557847.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-icons-set-on-white-background-line-style-vector-29557847" title="zoom icons set on white background line style vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/78/47/zoom-icons-set-on-white-background-line-style-vector-29557847.jpg" title="zoom icons set on white background line style" alt="zoom icons set on white background line style vector image"></noscript><img src="./view_files/zoom-icons-set-on-white-background-line-style-vector-29557847.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/69/26/search-icon-magnifying-glass-vector-23086926.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-magnifying-glass-vector-23086926" title="search icon magnifying glass vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/69/26/search-icon-magnifying-glass-vector-23086926.jpg" title="search icon magnifying glass" alt="search icon magnifying glass vector image"></noscript><img src="./view_files/search-icon-magnifying-glass-vector-23086926.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/62/89/search-icon-vector-21506289.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-21506289" title="search icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/62/89/search-icon-vector-21506289.jpg" title="search icon" alt="search icon vector image"></noscript><img src="./view_files/search-icon-vector-21506289.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/43/28/search-thin-line-icon-vector-38044328.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/search-thin-line-icon-vector-38044328" title="search thin line icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/43/28/search-thin-line-icon-vector-38044328.jpg" title="search thin line icon" alt="search thin line icon vector image"></noscript><img src="./view_files/search-thin-line-icon-vector-38044328.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/88/47/search-icon-on-white-vector-27628847.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-on-white-vector-27628847" title="search icon on white vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/88/47/search-icon-on-white-vector-27628847.jpg" title="search icon on white" alt="search icon on white vector image"></noscript><img src="./view_files/search-icon-on-white-vector-27628847.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/09/49/isolated-magnifier-glass-icons-set-search-zoom-vector-32840949.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/isolated-magnifier-glass-icons-set-search-zoom-vector-32840949" title="isolated magnifier glass icons set search zoom vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/09/49/isolated-magnifier-glass-icons-set-search-zoom-vector-32840949.jpg" title="isolated magnifier glass icons set search zoom" alt="isolated magnifier glass icons set search zoom vector image"></noscript><img src="./view_files/isolated-magnifier-glass-icons-set-search-zoom-vector-32840949.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/65/07/resize-in-out-icon-isolated-on-transparent-vector-35906507.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/resize-in-out-icon-isolated-on-transparent-vector-35906507" title="resize in out icon isolated on transparent vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/65/07/resize-in-out-icon-isolated-on-transparent-vector-35906507.jpg" title="resize in out icon isolated on transparent" alt="resize in out icon isolated on transparent vector image"></noscript><img src="./view_files/resize-in-out-icon-isolated-on-transparent-vector-35906507.jpg"></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/10/45/hand-in-black-glove-with-an-old-magnifying-glass-vector-36761045.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/hand-in-black-glove-with-an-old-magnifying-glass-vector-36761045" title="hand in black glove with an old magnifying glass vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/10/45/hand-in-black-glove-with-an-old-magnifying-glass-vector-36761045.jpg" title="hand in black glove with an old magnifying glass" alt="hand in black glove with an old magnifying glass vector image"></noscript><img src="./view_files/hand-in-black-glove-with-an-old-magnifying-glass-vector-36761045.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/63/57/zoom-in-linear-icon-vector-28416357.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-in-linear-icon-vector-28416357" title="zoom in linear icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/63/57/zoom-in-linear-icon-vector-28416357.jpg" title="zoom in linear icon" alt="zoom in linear icon vector image"></noscript><img src="./view_files/zoom-in-linear-icon-vector-28416357.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/60/01/search-icon-vector-7136001.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-7136001" title="search icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/60/01/search-icon-vector-7136001.jpg" title="search icon" alt="search icon vector image"></noscript><img src="./view_files/search-icon-vector-7136001.jpg"></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/83/11/search-icon-loupe-symbol-interface-element-vector-2538311.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-loupe-symbol-interface-element-vector-2538311" title="search icon loupe symbol interface element vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/83/11/search-icon-loupe-symbol-interface-element-vector-2538311.jpg" title="search icon loupe symbol interface element" alt="search icon loupe symbol interface element vector image"></noscript><img src="./view_files/search-icon-loupe-symbol-interface-element-vector-2538311.jpg"></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/82/24/dotted-icon-increase-magnifying-glass-in-four-vector-26308224.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/dotted-icon-increase-magnifying-glass-in-four-vector-26308224" title="dotted icon increase magnifying glass in four vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/82/24/dotted-icon-increase-magnifying-glass-in-four-vector-26308224.jpg" title="dotted icon increase magnifying glass in four" alt="dotted icon increase magnifying glass in four vector image"></noscript><img src="./view_files/dotted-icon-increase-magnifying-glass-in-four-vector-26308224.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/63/32/search-in-file-sign-icon-find-document-symbol-vector-8286332.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/search-in-file-sign-icon-find-document-symbol-vector-8286332" title="search in file sign icon find document symbol vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/63/32/search-in-file-sign-icon-find-document-symbol-vector-8286332.jpg" title="search in file sign icon find document symbol" alt="search in file sign icon find document symbol vector image"></noscript><img src="./view_files/search-in-file-sign-icon-find-document-symbol-vector-8286332.jpg"></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/82/82/magnifying-icon-set-vector-3348282.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-icon-set-vector-3348282" title="magnifying icon set vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/82/82/magnifying-icon-set-vector-3348282.jpg" title="magnifying icon set" alt="magnifying icon set vector image"></noscript><img src="./view_files/magnifying-icon-set-vector-3348282.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/14/23/mignifier-linear-pictograph-isolated-on-white-vector-39731423.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/mignifier-linear-pictograph-isolated-on-white-vector-39731423" title="mignifier linear pictograph isolated on white vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/14/23/mignifier-linear-pictograph-isolated-on-white-vector-39731423.jpg" title="mignifier linear pictograph isolated on white" alt="mignifier linear pictograph isolated on white vector image"></noscript><img src="./view_files/mignifier-linear-pictograph-isolated-on-white-vector-39731423.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/82/98/magnifying-glass-icon-vector-39008298.jpg" class="reveal"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-icon-vector-39008298" title="magnifying glass icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/82/98/magnifying-glass-icon-vector-39008298.jpg" title="magnifying glass icon" alt="magnifying glass icon vector image"></noscript><img src="./view_files/magnifying-glass-icon-vector-39008298.jpg"></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/23/28/binoculars-spy-line-icon-vector-25722328.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/binoculars-spy-line-icon-vector-25722328" title="binoculars spy line icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/23/28/binoculars-spy-line-icon-vector-25722328.jpg" title="binoculars spy line icon" alt="binoculars spy line icon vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/44/69/modern-binoculars-line-outline-icon-vector-37174469.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/modern-binoculars-line-outline-icon-vector-37174469" title="modern binoculars line outline icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/44/69/modern-binoculars-line-outline-icon-vector-37174469.jpg" title="modern binoculars line outline icon" alt="modern binoculars line outline icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/79/16/zoom-icon-in-icon-vector-39707916.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-icon-in-icon-vector-39707916" title="zoom icon in icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/79/16/zoom-icon-in-icon-vector-39707916.jpg" title="zoom icon in icon" alt="zoom icon in icon vector image"></noscript></a></li>
+						<li data-src="https://cdn3.vectorstock.com/i/thumb-large/25/72/magnifier-in-circle-vector-32512572.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifier-in-circle-vector-32512572" title="magnifier in circle vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumb-large/25/72/magnifier-in-circle-vector-32512572.jpg" title="magnifier in circle" alt="magnifier in circle vector image"></noscript></a></li>
+					</ul>
+				</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="30290796" data-title="binoculars logo design concept" data-src="https://cdn2.vectorstock.com/i/thumbs/07/96/binoculars-logo-design-concept-vector-30290796.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/binoculars-logo-design-concept-vector-30290796" title="binoculars logo design concept vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/07/96/binoculars-logo-design-concept-vector-30290796.jpg" title="binoculars logo design concept" alt="binoculars logo design concept vector image"></noscript></a></li>
+						<li data-id="32713153" data-title="magnifying glass" data-src="https://cdn4.vectorstock.com/i/thumbs/31/53/magnifying-glass-vector-32713153.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-vector-32713153" title="magnifying glass vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/31/53/magnifying-glass-vector-32713153.jpg" title="magnifying glass" alt="magnifying glass vector image"></noscript></a></li>
+						<li data-id="39752857" data-title="magnifying glass icon isolated on white" data-src="https://cdn3.vectorstock.com/i/thumbs/28/57/magnifying-glass-icon-isolated-on-white-vector-39752857.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-icon-isolated-on-white-vector-39752857" title="magnifying glass icon isolated on white vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/28/57/magnifying-glass-icon-isolated-on-white-vector-39752857.jpg" title="magnifying glass icon isolated on white" alt="magnifying glass icon isolated on white vector image"></noscript></a></li>
+						<li data-id="31106869" data-title="folder with magnifying glass" data-src="https://cdn5.vectorstock.com/i/thumbs/68/69/folder-with-magnifying-glass-vector-31106869.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/folder-with-magnifying-glass-vector-31106869" title="folder with magnifying glass vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/68/69/folder-with-magnifying-glass-vector-31106869.jpg" title="folder with magnifying glass" alt="folder with magnifying glass vector image"></noscript></a></li>
+						<li data-id="25716112" data-title="binoculars flat line black icon eps10" data-src="https://cdn3.vectorstock.com/i/thumbs/61/12/binoculars-flat-line-black-icon-eps10-vector-25716112.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/binoculars-flat-line-black-icon-eps10-vector-25716112" title="binoculars flat line black icon eps10 vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/61/12/binoculars-flat-line-black-icon-eps10-vector-25716112.jpg" title="binoculars flat line black icon eps10" alt="binoculars flat line black icon eps10 vector image"></noscript></a></li>
+						<li data-id="23597596" data-title="magnifying glass icon graphic design template" data-src="https://cdn2.vectorstock.com/i/thumbs/75/96/magnifying-glass-icon-graphic-design-template-vector-23597596.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-icon-graphic-design-template-vector-23597596" title="magnifying glass icon graphic design template vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/75/96/magnifying-glass-icon-graphic-design-template-vector-23597596.jpg" title="magnifying glass icon graphic design template" alt="magnifying glass icon graphic design template vector image"></noscript></a></li>
+						<li data-id="34346272" data-title="magnifier line icon magnifying glass" data-src="https://cdn3.vectorstock.com/i/thumbs/62/72/magnifier-line-icon-magnifying-glass-vector-34346272.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifier-line-icon-magnifying-glass-vector-34346272" title="magnifier line icon magnifying glass vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/62/72/magnifier-line-icon-magnifying-glass-vector-34346272.jpg" title="magnifier line icon magnifying glass" alt="magnifier line icon magnifying glass vector image"></noscript></a></li>
+						<li data-id="30695066" data-title="basic magnifying glass icon - search symbol" data-src="https://cdn2.vectorstock.com/i/thumbs/50/66/basic-magnifying-glass-icon-search-symbol-vector-30695066.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/basic-magnifying-glass-icon-search-symbol-vector-30695066" title="basic magnifying glass icon - search symbol vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/50/66/basic-magnifying-glass-icon-search-symbol-vector-30695066.jpg" title="basic magnifying glass icon - search symbol" alt="basic magnifying glass icon - search symbol vector image"></noscript></a></li>
+						<li data-id="22519952" data-title="search icon template sign design" data-src="https://cdn3.vectorstock.com/i/thumbs/99/52/search-icon-template-sign-design-vector-22519952.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-template-sign-design-vector-22519952" title="search icon template sign design vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/99/52/search-icon-template-sign-design-vector-22519952.jpg" title="search icon template sign design" alt="search icon template sign design vector image"></noscript></a></li>
+						<li data-id="27813061" data-title="search icon seo big data symbol web" data-src="https://cdn2.vectorstock.com/i/thumbs/30/61/search-icon-seo-big-data-symbol-web-vector-27813061.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-seo-big-data-symbol-web-vector-27813061" title="search icon seo big data symbol web vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/30/61/search-icon-seo-big-data-symbol-web-vector-27813061.jpg" title="search icon seo big data symbol web" alt="search icon seo big data symbol web vector image"></noscript></a></li>
+						<li data-id="25483407" data-title="icon magnifying glass in flat style" data-src="https://cdn3.vectorstock.com/i/thumbs/34/07/icon-magnifying-glass-in-flat-style-vector-25483407.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/icon-magnifying-glass-in-flat-style-vector-25483407" title="icon magnifying glass in flat style vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/34/07/icon-magnifying-glass-in-flat-style-vector-25483407.jpg" title="icon magnifying glass in flat style" alt="icon magnifying glass in flat style vector image"></noscript></a></li>
+						<li data-id="31703300" data-title="binoculars - flat style icon on white background" data-src="https://cdn1.vectorstock.com/i/thumbs/33/00/binoculars-flat-style-icon-on-white-background-vector-31703300.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/binoculars-flat-style-icon-on-white-background-vector-31703300" title="binoculars - flat style icon on white background vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/33/00/binoculars-flat-style-icon-on-white-background-vector-31703300.jpg" title="binoculars - flat style icon on white background" alt="binoculars - flat style icon on white background vector image"></noscript></a></li>
+						<li data-id="11234199" data-title="simple searching icon in flat design" data-src="https://cdn5.vectorstock.com/i/thumbs/41/99/simple-searching-icon-in-flat-design-vector-11234199.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/simple-searching-icon-in-flat-design-vector-11234199" title="simple searching icon in flat design vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/41/99/simple-searching-icon-in-flat-design-vector-11234199.jpg" title="simple searching icon in flat design" alt="simple searching icon in flat design vector image"></noscript></a></li>
+						<li data-id="34155191" data-title="magnifying glass icon set in flat and line style" data-src="https://cdn2.vectorstock.com/i/thumbs/51/91/magnifying-glass-icon-set-in-flat-and-line-style-vector-34155191.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-icon-set-in-flat-and-line-style-vector-34155191" title="magnifying glass icon set in flat and line style vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/51/91/magnifying-glass-icon-set-in-flat-and-line-style-vector-34155191.jpg" title="magnifying glass icon set in flat and line style" alt="magnifying glass icon set in flat and line style vector image"></noscript></a></li>
+						<li data-id="31771366" data-title="hand drawn magnifier doodle icon isolated" data-src="https://cdn2.vectorstock.com/i/thumbs/13/66/hand-drawn-magnifier-doodle-icon-isolated-vector-31771366.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/hand-drawn-magnifier-doodle-icon-isolated-vector-31771366" title="hand drawn magnifier doodle icon isolated vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/13/66/hand-drawn-magnifier-doodle-icon-isolated-vector-31771366.jpg" title="hand drawn magnifier doodle icon isolated" alt="hand drawn magnifier doodle icon isolated vector image"></noscript></a></li>
+						<li data-id="27673988" data-title="magnifying glass with heart line icon" data-src="https://cdn4.vectorstock.com/i/thumbs/39/88/magnifying-glass-with-heart-line-icon-vector-27673988.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-with-heart-line-icon-vector-27673988" title="magnifying glass with heart line icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/39/88/magnifying-glass-with-heart-line-icon-vector-27673988.jpg" title="magnifying glass with heart line icon" alt="magnifying glass with heart line icon vector image"></noscript></a></li>
+						<li data-id="26667630" data-title="search icons" data-src="https://cdn1.vectorstock.com/i/thumbs/76/30/search-icons-vector-26667630.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icons-vector-26667630" title="search icons vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/76/30/search-icons-vector-26667630.jpg" title="search icons" alt="search icons vector image"></noscript></a></li>
+						<li data-id="36694532" data-title="isometric mgnifier glass icon with golden money" data-src="https://cdn3.vectorstock.com/i/thumbs/45/32/isometric-mgnifier-glass-icon-with-golden-money-vector-36694532.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/isometric-mgnifier-glass-icon-with-golden-money-vector-36694532" title="isometric mgnifier glass icon with golden money vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/45/32/isometric-mgnifier-glass-icon-with-golden-money-vector-36694532.jpg" title="isometric mgnifier glass icon with golden money" alt="isometric mgnifier glass icon with golden money vector image"></noscript></a></li>
+						<li data-id="31077905" data-title="search colorful text with magnifier isolated" data-src="https://cdn1.vectorstock.com/i/thumbs/79/05/search-colorful-text-with-magnifier-isolated-vector-31077905.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-colorful-text-with-magnifier-isolated-vector-31077905" title="search colorful text with magnifier isolated vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/79/05/search-colorful-text-with-magnifier-isolated-vector-31077905.jpg" title="search colorful text with magnifier isolated" alt="search colorful text with magnifier isolated vector image"></noscript></a></li>
+						<li data-id="38155460" data-title="spyglass astronomer equipment icon cartoon" data-src="https://cdn1.vectorstock.com/i/thumbs/54/60/spyglass-astronomer-equipment-icon-cartoon-vector-38155460.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/spyglass-astronomer-equipment-icon-cartoon-vector-38155460" title="spyglass astronomer equipment icon cartoon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/54/60/spyglass-astronomer-equipment-icon-cartoon-vector-38155460.jpg" title="spyglass astronomer equipment icon cartoon" alt="spyglass astronomer equipment icon cartoon vector image"></noscript></a></li>
+						<li data-id="27182281" data-title="set 3 simple design binoculars icons rounded" data-src="https://cdn2.vectorstock.com/i/thumbs/22/81/set-3-simple-design-binoculars-icons-rounded-vector-27182281.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/set-3-simple-design-binoculars-icons-rounded-vector-27182281" title="set 3 simple design binoculars icons rounded vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/22/81/set-3-simple-design-binoculars-icons-rounded-vector-27182281.jpg" title="set 3 simple design binoculars icons rounded" alt="set 3 simple design binoculars icons rounded vector image"></noscript></a></li>
+						<li data-id="13787129" data-title="large group of people in the magnifying glass" data-src="https://cdn5.vectorstock.com/i/thumbs/71/29/large-group-of-people-in-the-magnifying-glass-vector-13787129.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/large-group-of-people-in-the-magnifying-glass-vector-13787129" title="large group of people in the magnifying glass vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/71/29/large-group-of-people-in-the-magnifying-glass-vector-13787129.jpg" title="large group of people in the magnifying glass" alt="large group of people in the magnifying glass vector image"></noscript></a></li>
+						<li data-id="20920395" data-title="search icon found find concept magnifying glass" data-src="https://cdn1.vectorstock.com/i/thumbs/03/95/search-icon-found-find-concept-magnifying-glass-vector-20920395.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-found-find-concept-magnifying-glass-vector-20920395" title="search icon found find concept magnifying glass vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/03/95/search-icon-found-find-concept-magnifying-glass-vector-20920395.jpg" title="search icon found find concept magnifying glass" alt="search icon found find concept magnifying glass vector image"></noscript></a></li>
+						<li data-id="35065935" data-title="search icon doodle hand drawn or outline icon" data-src="https://cdn1.vectorstock.com/i/thumbs/59/35/search-icon-doodle-hand-drawn-or-outline-icon-vector-35065935.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-doodle-hand-drawn-or-outline-icon-vector-35065935" title="search icon doodle hand drawn or outline icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/59/35/search-icon-doodle-hand-drawn-or-outline-icon-vector-35065935.jpg" title="search icon doodle hand drawn or outline icon" alt="search icon doodle hand drawn or outline icon vector image"></noscript></a></li>
+						<li data-id="28270927" data-title="magnifying glass neon sign" data-src="https://cdn3.vectorstock.com/i/thumbs/09/27/magnifying-glass-neon-sign-vector-28270927.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-neon-sign-vector-28270927" title="magnifying glass neon sign vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/09/27/magnifying-glass-neon-sign-vector-28270927.jpg" title="magnifying glass neon sign" alt="magnifying glass neon sign vector image"></noscript></a></li>
+						<li data-id="24500765" data-title="binoculars icons filled and line style" data-src="https://cdn1.vectorstock.com/i/thumbs/07/65/binoculars-icons-filled-and-line-style-vector-24500765.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/binoculars-icons-filled-and-line-style-vector-24500765" title="binoculars icons filled and line style vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/07/65/binoculars-icons-filled-and-line-style-vector-24500765.jpg" title="binoculars icons filled and line style" alt="binoculars icons filled and line style vector image"></noscript></a></li>
+						<li data-id="23192147" data-title="search icon magnifier glass zoom symbol thin line" data-src="https://cdn3.vectorstock.com/i/thumbs/21/47/search-icon-magnifier-glass-zoom-symbol-thin-line-vector-23192147.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-magnifier-glass-zoom-symbol-thin-line-vector-23192147" title="search icon magnifier glass zoom symbol thin line vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/21/47/search-icon-magnifier-glass-zoom-symbol-thin-line-vector-23192147.jpg" title="search icon magnifier glass zoom symbol thin line" alt="search icon magnifier glass zoom symbol thin line vector image"></noscript></a></li>
+						<li data-id="20822160" data-title="document search icon flat cartoon paper" data-src="https://cdn1.vectorstock.com/i/thumbs/21/60/document-search-icon-flat-cartoon-paper-vector-20822160.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/document-search-icon-flat-cartoon-paper-vector-20822160" title="document search icon flat cartoon paper vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/21/60/document-search-icon-flat-cartoon-paper-vector-20822160.jpg" title="document search icon flat cartoon paper" alt="document search icon flat cartoon paper vector image"></noscript></a></li>
+						<li data-id="33724736" data-title="magnifying glass in hand" data-src="https://cdn2.vectorstock.com/i/thumbs/47/36/magnifying-glass-in-hand-vector-33724736.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-in-hand-vector-33724736" title="magnifying glass in hand vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/47/36/magnifying-glass-in-hand-vector-33724736.jpg" title="magnifying glass in hand" alt="magnifying glass in hand vector image"></noscript></a></li>
+						<li data-id="23309431" data-title="web icon magnifier purple gradient search sign" data-src="https://cdn2.vectorstock.com/i/thumbs/94/31/web-icon-magnifier-purple-gradient-search-sign-vector-23309431.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/web-icon-magnifier-purple-gradient-search-sign-vector-23309431" title="web icon magnifier purple gradient search sign vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/94/31/web-icon-magnifier-purple-gradient-search-sign-vector-23309431.jpg" title="web icon magnifier purple gradient search sign" alt="web icon magnifier purple gradient search sign vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-similar-to_25322892" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-artist" class="group">
+				<h6><span class="icon"></span><strong>More by <a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_iconStocker" rel="nofollow">iconStocker</a></strong></h6>
+
+			<div class="gallery large">
+				<ul>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/72/58/zoom-in-icon-vector-29147258.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-29147258" title="zoom in icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/72/58/zoom-in-icon-vector-29147258.jpg" title="zoom in icon" alt="zoom in icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/48/86/zoom-in-icon-vector-25484886.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-25484886" title="zoom in icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/48/86/zoom-in-icon-vector-25484886.jpg" title="zoom in icon" alt="zoom in icon vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/49/73/magnifier-glass-icon-vector-25484973.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifier-glass-icon-vector-25484973" title="magnifier glass icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/49/73/magnifier-glass-icon-vector-25484973.jpg" title="magnifier glass icon" alt="magnifier glass icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/44/61/search-icon-vector-21894461.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-21894461" title="search icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/44/61/search-icon-vector-21894461.jpg" title="search icon" alt="search icon vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/26/78/search-icon-vector-25322678.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-25322678" title="search icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/26/78/search-icon-vector-25322678.jpg" title="search icon" alt="search icon vector image"></noscript></a></li>
+						<li data-src="https://cdn1.vectorstock.com/i/thumb-large/11/40/search-icon-vector-22391140.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-22391140" title="search icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumb-large/11/40/search-icon-vector-22391140.jpg" title="search icon" alt="search icon vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/52/71/search-icon-magnifying-glass-sign-vector-25485271.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-magnifying-glass-sign-vector-25485271" title="search icon magnifying glass sign vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/52/71/search-icon-magnifying-glass-sign-vector-25485271.jpg" title="search icon magnifying glass sign" alt="search icon magnifying glass sign vector image"></noscript></a></li>
+						<li data-src="https://cdn2.vectorstock.com/i/thumb-large/24/06/magnifier-glass-icon-vector-25322406.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifier-glass-icon-vector-25322406" title="magnifier glass icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumb-large/24/06/magnifier-glass-icon-vector-25322406.jpg" title="magnifier glass icon" alt="magnifier glass icon vector image"></noscript></a></li>
+						<li data-src="https://cdn4.vectorstock.com/i/thumb-large/47/28/search-icons-isolated-on-white-background-vector-26504728.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icons-isolated-on-white-background-vector-26504728" title="search icons isolated on white background vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumb-large/47/28/search-icons-isolated-on-white-background-vector-26504728.jpg" title="search icons isolated on white background" alt="search icons isolated on white background vector image"></noscript></a></li>
+						<li data-src="https://cdn5.vectorstock.com/i/thumb-large/29/04/magnifier-glass-icon-vector-25322904.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifier-glass-icon-vector-25322904" title="magnifier glass icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumb-large/29/04/magnifier-glass-icon-vector-25322904.jpg" title="magnifier glass icon" alt="magnifier glass icon vector image"></noscript></a></li>
+				</ul>
+			</div>
+				<div class="gallery small more">
+					<ul>
+						<li data-id="21894460" data-title="search icon" data-src="https://cdn1.vectorstock.com/i/thumbs/44/60/search-icon-vector-21894460.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-21894460" title="search icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/44/60/search-icon-vector-21894460.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="25484947" data-title="search icon isolated on white background" data-src="https://cdn3.vectorstock.com/i/thumbs/49/47/search-icon-isolated-on-white-background-vector-25484947.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-isolated-on-white-background-vector-25484947" title="search icon isolated on white background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/49/47/search-icon-isolated-on-white-background-vector-25484947.jpg" title="search icon isolated on white background" alt="search icon isolated on white background vector image vector image"></noscript></a></li>
+						<li data-id="21996788" data-title="magnifying glass icon research symbol magnifier" data-src="https://cdn4.vectorstock.com/i/thumbs/67/88/magnifying-glass-icon-research-symbol-magnifier-vector-21996788.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-icon-research-symbol-magnifier-vector-21996788" title="magnifying glass icon research symbol magnifier vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/67/88/magnifying-glass-icon-research-symbol-magnifier-vector-21996788.jpg" title="magnifying glass icon research symbol magnifier" alt="magnifying glass icon research symbol magnifier vector image vector image"></noscript></a></li>
+						<li data-id="22342066" data-title="search icon" data-src="https://cdn2.vectorstock.com/i/thumbs/20/66/search-icon-vector-22342066.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-22342066" title="search icon vector image"><noscript><img src="https://cdn2.vectorstock.com/i/thumbs/20/66/search-icon-vector-22342066.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="21638887" data-title="zoom in icon" data-src="https://cdn3.vectorstock.com/i/thumbs/88/87/zoom-in-icon-vector-21638887.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-21638887" title="zoom in icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/88/87/zoom-in-icon-vector-21638887.jpg" title="zoom in icon" alt="zoom in icon vector image vector image"></noscript></a></li>
+						<li data-id="26556123" data-title="search icon" data-src="https://cdn4.vectorstock.com/i/thumbs/61/23/search-icon-vector-26556123.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-26556123" title="search icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/61/23/search-icon-vector-26556123.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="21996750" data-title="zoom in icon" data-src="https://cdn1.vectorstock.com/i/thumbs/67/50/zoom-in-icon-vector-21996750.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-21996750" title="zoom in icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/67/50/zoom-in-icon-vector-21996750.jpg" title="zoom in icon" alt="zoom in icon vector image vector image"></noscript></a></li>
+						<li data-id="25484899" data-title="magnifier glass icon" data-src="https://cdn5.vectorstock.com/i/thumbs/48/99/magnifier-glass-icon-vector-25484899.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifier-glass-icon-vector-25484899" title="magnifier glass icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/48/99/magnifier-glass-icon-vector-25484899.jpg" title="magnifier glass icon" alt="magnifier glass icon vector image vector image"></noscript></a></li>
+						<li data-id="29147257" data-title="zoom out icon" data-src="https://cdn3.vectorstock.com/i/thumbs/72/57/zoom-out-icon-vector-29147257.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-out-icon-vector-29147257" title="zoom out icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/72/57/zoom-out-icon-vector-29147257.jpg" title="zoom out icon" alt="zoom out icon vector image vector image"></noscript></a></li>
+						<li data-id="21894485" data-title="magnifying glass icon research symbol magnifier" data-src="https://cdn1.vectorstock.com/i/thumbs/44/85/magnifying-glass-icon-research-symbol-magnifier-vector-21894485.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-icon-research-symbol-magnifier-vector-21894485" title="magnifying glass icon research symbol magnifier vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/44/85/magnifying-glass-icon-research-symbol-magnifier-vector-21894485.jpg" title="magnifying glass icon research symbol magnifier" alt="magnifying glass icon research symbol magnifier vector image vector image"></noscript></a></li>
+						<li data-id="21679680" data-title="magnifying glass icon research symbol magnifier" data-src="https://cdn1.vectorstock.com/i/thumbs/96/80/magnifying-glass-icon-research-symbol-magnifier-vector-21679680.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifying-glass-icon-research-symbol-magnifier-vector-21679680" title="magnifying glass icon research symbol magnifier vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/96/80/magnifying-glass-icon-research-symbol-magnifier-vector-21679680.jpg" title="magnifying glass icon research symbol magnifier" alt="magnifying glass icon research symbol magnifier vector image vector image"></noscript></a></li>
+						<li data-id="25322742" data-title="search icon isolated on white background" data-src="https://cdn3.vectorstock.com/i/thumbs/27/42/search-icon-isolated-on-white-background-vector-25322742.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-isolated-on-white-background-vector-25322742" title="search icon isolated on white background vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/27/42/search-icon-isolated-on-white-background-vector-25322742.jpg" title="search icon isolated on white background" alt="search icon isolated on white background vector image vector image"></noscript></a></li>
+						<li data-id="23918148" data-title="search icon magnifying glass sign" data-src="https://cdn4.vectorstock.com/i/thumbs/81/48/search-icon-magnifying-glass-sign-vector-23918148.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-magnifying-glass-sign-vector-23918148" title="search icon magnifying glass sign vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/81/48/search-icon-magnifying-glass-sign-vector-23918148.jpg" title="search icon magnifying glass sign" alt="search icon magnifying glass sign vector image vector image"></noscript></a></li>
+						<li data-id="26505207" data-title="magnifier glass icon" data-src="https://cdn3.vectorstock.com/i/thumbs/52/07/magnifier-glass-icon-vector-26505207.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/magnifier-glass-icon-vector-26505207" title="magnifier glass icon vector image"><noscript><img src="https://cdn3.vectorstock.com/i/thumbs/52/07/magnifier-glass-icon-vector-26505207.jpg" title="magnifier glass icon" alt="magnifier glass icon vector image vector image"></noscript></a></li>
+						<li data-id="22431373" data-title="search icon" data-src="https://cdn4.vectorstock.com/i/thumbs/13/73/search-icon-vector-22431373.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-22431373" title="search icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/13/73/search-icon-vector-22431373.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="22391138" data-title="search icon" data-src="https://cdn4.vectorstock.com/i/thumbs/11/38/search-icon-vector-22391138.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-22391138" title="search icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/11/38/search-icon-vector-22391138.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="26555400" data-title="search icon" data-src="https://cdn1.vectorstock.com/i/thumbs/54/00/search-icon-vector-26555400.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-26555400" title="search icon vector image"><noscript><img src="https://cdn1.vectorstock.com/i/thumbs/54/00/search-icon-vector-26555400.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="23766184" data-title="search icon" data-src="https://cdn5.vectorstock.com/i/thumbs/61/84/search-icon-vector-23766184.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-23766184" title="search icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/61/84/search-icon-vector-23766184.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="25322919" data-title="search icon" data-src="https://cdn5.vectorstock.com/i/thumbs/29/19/search-icon-vector-25322919.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/search-icon-vector-25322919" title="search icon vector image"><noscript><img src="https://cdn5.vectorstock.com/i/thumbs/29/19/search-icon-vector-25322919.jpg" title="search icon" alt="search icon vector image vector image"></noscript></a></li>
+						<li data-id="21791688" data-title="zoom in icon" data-src="https://cdn4.vectorstock.com/i/thumbs/16/88/zoom-in-icon-vector-21791688.jpg"><a href="https://www.vectorstock.com/royalty-free-vector/zoom-in-icon-vector-21791688" title="zoom in icon vector image"><noscript><img src="https://cdn4.vectorstock.com/i/thumbs/16/88/zoom-in-icon-vector-21791688.jpg" title="zoom in icon" alt="zoom in icon vector image vector image"></noscript></a></li>
+						<li class="more"><div><a href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_iconStocker" rel="nofollow"><span class="lrg">More Images…</span><span class="sml">More</span></a></div></li>
+					</ul>
+				</div>
+			</div>
+			<div id="group-keywords" class="group">
+				<h6><span class="icon"></span><strong>Related Searches</strong></h6>
+				<ul>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/zoom-vectors">Zoom</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/icon-vectors">Icon</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/in-vectors">In</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/symbol-vectors">Symbol</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/sign-vectors">Sign</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/vector-vectors">Vector</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/optical-vectors">Optical</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/discovery-vectors">Discovery</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/research-vectors">Research</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/glass-vectors">Glass</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/magnifying-vectors">Magnifying</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/illustration-vectors">Illustration</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/see-vectors">See</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/magnify-vectors">Magnify</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/lens-vectors">Lens</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/plus-vectors">Plus</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/exploration-vectors">Exploration</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/magnifier-vectors">Magnifier</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/enlarge-vectors">Enlarge</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/tool-vectors">Tool</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/magnification-vectors">Magnification</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/find-vectors">Find</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/search-vectors">Search</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/detective-vectors">Detective</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/instrument-vectors">Instrument</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/loupe-vectors">Loupe</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/web-vectors">Web</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/look-vectors">Look</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/view-vectors">View</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/internet-vectors">Internet</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/review-vectors">Review</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/seek-vectors">Seek</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/inspection-vectors">Inspection</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/inspect-vectors">Inspect</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/inspector-vectors">Inspector</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/eyesight-vectors">Eyesight</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/scrutiny-vectors">Scrutiny</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/design-vectors">Design</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/analysis-vectors">Analysis</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/examine-vectors">Examine</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/minus-vectors">Minus</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/macro-vectors">Macro</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/focus-vectors">Focus</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/isolated-vectors">Isolated</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/watch-vectors">Watch</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/site-vectors">Site</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/detail-vectors">Detail</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/explore-vectors">Explore</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/object-vectors">Object</a></li>
+					<li><a href="https://www.vectorstock.com/royalty-free-vectors/transparent-vectors">Transparent</a></li>
+				</ul>
+			</div>
+		</section>
+	</article>
+
+	<!-- Footer -->
+	<footer>
+		<div>
+		<div class="column c1">
+			<nav class="company">
+				<h4>VectorStock</h4>
+				<ul>
+					<li><a href="https://www.vectorstock.com/" title="Home">Home</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/free-vectors" title="Free Vectors">Free Vectors</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/royalty-free-vectors" title="All Royalty-Free Vectors">All Vectors</a></li>
+				</ul>
+				<ul>
+					<li><a href="https://www.vectorstock.com/what-is-a-vector" title="What is a Vector?">What is a Vector?</a></li>
+				</ul>
+				<ul>
+					<li class="sel"><a href="https://www.vectorstock.com/faq" title="Frequently Asked Questions"><span class="long">Frequently Asked Questions</span><span class="short">FAQs</span></a></li>
+					<li><a href="https://www.vectorstock.com/faq/members/terms-of-use" title="Terms &amp; Conditions">Terms &amp; Conditions</a></li>
+					<li class="sel"><a href="https://www.vectorstock.com/contact" title="Contact Us">Contact Us</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="column c2">
+			<nav class="account">
+				<h4><span class="title">Account</span><span class="icon"></span></h4>
+					<ul>
+						<li><a href="https://www.vectorstock.com/signup" title="Join Now">Join Now</a></li>
+						<li><a href="https://www.vectorstock.com/pricing" title="Pricing">Pricing</a></li>
+						<li><a href="https://www.vectorstock.com/?signup=1&amp;contributor=1" title="Contributor Sign Up">Contributor Sign Up</a></li>
+						<li><a href="https://www.vectorstock.com/faq/artists/why-sell-at-vectorstock" title="Contributor FAQ">Contributor FAQ</a></li>
+					</ul>
+			</nav>
+		</div>
+		<div class="column c3">
+			<nav class="social">
+				<h4>Social</h4>
+				<ul>
+					<li class="facebook sel"><a href="https://www.facebook.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Facebook</span><span class="icon"></span></a></li>
+					<li class="pinterest sel"><a href="https://pinterest.com/vectorstock/" target="_blank" rel="noreferrer"><span class="title">Pinterest</span><span class="icon"></span></a></li>
+					<li class="twitter sel"><a href="https://twitter.com/VectorStock" target="_blank" rel="noreferrer"><span class="title">Twitter</span><span class="icon"></span></a></li>
+				</ul>
+			</nav>
+			<div class="signoff">
+				<h5><a href="https://www.vectorstock.com/" title="VectorStock®">VectorStock®</a></h5>
+				<p>VectorStock and the VectorStock logo are registered trademarks of VectorStock Media.<br>
+				© 2021. <span>All Rights Reserved.</span></p>
+			</div>
+		</div>
+		</div>
+	</footer>
+
+
+	<script type="text/javascript" nonce="QVUZPIVUPazqfigpqnk5/amv8aauiLKzZWJhS9KeDWU=">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"02e09611df","applicationID":"156179534","transactionName":"ZV0ENRYCC0RYAkVbDVwXJRQXFwpaFhNeSwNeTB9MAhEAUhQXVFEWXUpJFw0GEg==","queueTime":0,"applicationTime":50,"atts":"SRoHQ14YGEo=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script>
+
+
+
+</body><div id="insta-publisher-uploader-box" style="top: 102px; left: 220px; z-index: 52;" data-img="https://cdn3.vectorstock.com/i/1000x1000/28/92/zoom-in-icon-vector-25322892.jpg">
+            <div class="insta-publisher-btns-holder">
+                <span title="Create instagram story" data-action="imgToStory" class="insta-publisher-btn">
+                    <i class="insta-publisher-material-icons">
+                        photo_camera
+                    </i>
+                </span>
+                <span title="Сreate instagram publication" data-action="imgToPublish" class="insta-publisher-btn">
+                    <i class="insta-publisher-material-icons">
+                        add_box
+                    </i>
+                </span>
+            </div>
+            <div class="insta-publisher-spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+            <div class="insta-publisher-error-msg">
+                    <span>Image loading failed</span>
+            </div></div></html>
